@@ -15,8 +15,9 @@ In this project, it is used for SQL quering on the Glue data catalog directly in
 - Generate for free an NBA API Key from SportsDataIO API (https://sportsdata.io/cart/free-trial)
 
 ## Architecture 
+![image](https://github.com/user-attachments/assets/61c3abfe-a017-480f-b847-9319aa6270c0)
 
-![alt text](image.png)
+
 
 ## Setting up the environment
 In the .env file, define environment variables to store your sensitive data:  
@@ -40,13 +41,13 @@ Check that all resources have been created successfully :
 
 ## Results: 
 
-On the console, go to S3 and you will find the Athena's results under the Output location folder defined in the Script: 
+On the console, go to S3 and you will find the Athena's results under the Output location folder defined in the Script:   
+![image-2](https://github.com/user-attachments/assets/d4091d79-a6b8-44eb-b165-c64c15b3d71d)
 
-![alt text](image-2.png)
+![image-3](https://github.com/user-attachments/assets/c2b3e77a-d1af-4244-9f68-cb3a4790f7d9)
 
-![alt text](image-3.png)
+![image-4](https://github.com/user-attachments/assets/a2e68e3b-49e1-49fa-85bd-4219f0e7885d)
 
-![alt text](image-4.png)
 
 ## Destroy the platform 
 To avoid any billing surprises, don't forget to destroy the created infrastructure.   
